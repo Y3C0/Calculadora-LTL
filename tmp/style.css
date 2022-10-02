@@ -1,0 +1,14 @@
+.text-center {
+  text-align: center;
+}
+th {
+  background-color: #eee
+  width="100%"
+  border="0"
+}
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
