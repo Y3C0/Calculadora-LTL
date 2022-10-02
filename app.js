@@ -7,6 +7,7 @@ var anchoCaja = prompt("Ancho caja:");
 var pesoCaja = prompt("Peso caja:");
 var cantidadCaja = prompt("Cantidad de caja:");
 
+
 // Medidas y peso maximo tarima
 var largoTarima = 1200;
 var altoTarima = 1800;
@@ -69,3 +70,5 @@ var tarima = {
  peso: pesoTarima,
 };
 console.log(tarima);
+
+// prueba git
