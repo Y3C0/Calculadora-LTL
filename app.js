@@ -43,7 +43,6 @@ function pesoVolumetrico() {
 pesoVolumetrico();
 
 // Peso volumetrico tarima
-
 function tarimaVolumetrico() {
   console.log("El peso volumetrico de esta taria es " + (largoT*altoT*anchoT)/ 5000 + kilos);
 }
