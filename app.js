@@ -37,10 +37,17 @@ console.log("Cajas por tarima: " + cajasPT);
 function pesoVolumetrico() {
  console.log(
   "El peso volumetrico de esta caja es: " +
-   (largoCaja * altoCaja * anchoCaja) / 50000
+   (largoCaja * altoCaja * anchoCaja) / 50000 + kilos
  );
 }
 pesoVolumetrico();
+
+// Peso volumetrico tarima
+
+function tarimaVolumetrico() {
+  console.log("El peso volumetrico de esta taria es " + (largoT*altoT*anchoT)/ 5000 + kilos);
+}
+console.log(tarimaVolumetrico);
 
 var pesoTarima = pesoCaja * cajasPT;
 console.log("El peso de la tarima es de: " + pesoTarima);
